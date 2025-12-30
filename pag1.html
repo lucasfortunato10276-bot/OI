@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0; padding: 0;}
+#menu{
+display: none;
+
+
+}
+label{
+font-size: 1.9rem;
+
+
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: rgb(40, 214, 92);
+}
+
+.hero{
+padding: 1rem;
+
+
+}
+.hero img{max-height: 220px;
+width: 100%;
+max-width: 500px;
+
+}
+.hero h1{
+margin-left: 0.7rem;
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.lo{
+margin-left: 0.2rem;
+padding: 1rem;
+
+}
+button{
+
+position: absolute;
+left: 205px;
+top: 480px;
+}
+.pai{
+display: inline-flex;
+gap: 20px;
+list-style: none;
+margin-left: 3rem;
+color: white;
+transition: 2s ease-in-out;
+transform: scale(0);
+}
+.aaa{
+transition: 1s;
+transform: scale(1);
+
+
+}
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+   
+<nav class="navbar">
+<ul class="pai"><li>CONTATO</li>
+<li>SOBRE</li>
+<li>BLOG</li>
+<li>SUPORTE</li>
+</ul>
+
+
+<input type="checkbox" id="menu">
+<label for="menu" onclick="oo()">&#9776</label>
+
+
+
+</nav>    
+<section class="hero">
+<img src="images.jpg" alt="">
+<h1>BEM VINDO O SITE TÁ FEIO </h1>
+
+
+</section>
+
+<div class="lo">
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odit delectus consectetur molestias? Repellat quod reiciendis perspiciatis enim numquam quas nisi, quo distinctio architecto provident, consectetur, odit eaque ducimus animi!</p>
+</div>
+<button>COMPRE JA</button>
+
+
+
+
+<script>
+function oo(){
+var pp = document.querySelector(".pai")
+if(true){
+pp.classList.toggle("aaa")
+
+
+}
+
+
+}
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
